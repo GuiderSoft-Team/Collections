@@ -11,12 +11,36 @@ public class Library implements Iterable<Book> {
         books=new Book[capacity];
     }
 
+
+
     public Library() {
         this(10);
     }
 
+    public int capacity(){
+        return books.length;
+    }
+
+    public int size(){
+        return count;
+    }
+
     public void add(Book book){
         books[count++]=book;
+        if(count== capacity()/2){
+            doubleSize();
+        }
+    }
+
+    private void doubleSize() {
+        Book[] tmp=new Book[size()];
+        for (int i = 0; i < tmp.length; i++) {
+            tmp[i]=books[i];
+        }
+        books=new Book[capacity()*2];
+        for (int i = 0; i < tmp.length; i++) {
+            books[i]=tmp[i];
+        }
     }
 
     public Book get(int index){
