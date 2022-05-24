@@ -1,6 +1,7 @@
 package day058.showroomproject;
 
 import java.util.Iterator;
+import java.util.List;
 import java.util.Objects;
 
 public class Showroom implements Iterable<Car> {
@@ -36,6 +37,13 @@ public class Showroom implements Iterable<Car> {
                 cars[i]=tmp[i];
             }
         }
+    }
+
+
+
+    public void clear(){
+        cars=new Car[DEFAULT_CAPACITY];
+        count=0;
     }
 
     public boolean remove(Car car){
