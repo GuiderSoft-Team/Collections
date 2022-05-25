@@ -1,6 +1,7 @@
-1. 1-10 arası sayıları tutan bir numbers isimli bir ArrayList oluşturunuz.
+Task 1:
+1. 1-10 arası sayıları tutan numbers isimli bir ArrayList oluşturunuz.
 
-2. Tek sayıları oddNumbers isimli ArrayList'e çift sayıları evenNumber isimli
+2. Tek sayıları oddNumbers isimli ArrayList'e çift sayıları evenNumbers isimli
 başka bir ArrayList'e yerleştiren Java kodunu yazınız.
 
 3. Üç ArrayList'i de farklı yöntemlerle ekrana yazdırınız.
@@ -9,3 +10,17 @@ başka bir ArrayList'e yerleştiren Java kodunu yazınız.
     evenNumbers: sout
 
 4. numbers'tan tek sayıları silen kodu yazınız.
+
+----------------------------------------------------------
+
+Task 2:
+
+
+1. record ile Personel isimli bir tasarım yapınız. Alanları isim: String, maas:double
+
+2. calisanlar isimli bir ArrayList tanımlayınız.
+ İçerisine isimleri farklı maaşları farklı 5 personel yerleştiriniz.
+
+3. Maaş 5000'den büyük olanları maas5000 isimlli başka bir ArrayList'e yerleştiriniz.
+
+4. maas5000 ArrayList'ini while ile ekrana yazdırınız.
