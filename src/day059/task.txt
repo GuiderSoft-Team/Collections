@@ -21,6 +21,6 @@ Task 2:
 2. calisanlar isimli bir ArrayList tanımlayınız.
  İçerisine isimleri farklı maaşları farklı 5 personel yerleştiriniz.
 
-3. Maaş 5000'den büyük olanları maas5000 isimlli başka bir ArrayList'e yerleştiriniz.
+3. Maaşı 5000'den büyük olanları maas5000 isimli başka bir ArrayList'e yerleştiriniz.
 
 4. maas5000 ArrayList'ini while ile ekrana yazdırınız.
