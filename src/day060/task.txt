@@ -40,4 +40,20 @@ List.of(
 doldurunuz.
 
 11. stok için tasarladığınız bütün listeleme metotlarını çalıştırınız.
- Aralarında birer satır boşluk olmasına d,kkat ediniz.
+ Aralarında birer satır boşluk olmasına dikkat ediniz.
+
+12. Listenin ilk n elemanını ekranda gösteren declarative kodu yazınız.
+Method : List<Urun> head(int quantity)
+ipucu : limit
+
+13. Varsayılan olarak ilk 5 eleman listelenmelidir.
+Method: List<Urun> head()
+
+14. Listenin son n elemanını ekranda gösteren declarative kodu yazınız.
+Method : List<Urun> tail(int quantity)
+ipucu: skip
+
+15. Varsayılan olarak son 5 eleman listelenmelidir.
+Method: List<Urun> tail()
+
+16. Main class - main metodunda kodların çalıştığını test ediniz.
