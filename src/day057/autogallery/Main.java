@@ -1,5 +1,6 @@
 package day057.autogallery;
 
+import java.util.ArrayList;
 import java.util.Iterator;
 
 public class Main {

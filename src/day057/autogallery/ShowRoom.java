@@ -6,6 +6,7 @@ import day057.libraryproject.Book;
 import java.util.Iterator;
 
 public class ShowRoom implements Iterable<Car>{
+    private static final int DEFAULT_CAPACITY=10;
     private Car[]cars;
     private int count;
 
@@ -13,7 +14,7 @@ public class ShowRoom implements Iterable<Car>{
         cars=new Car[capacity];
     }
     public ShowRoom(){
-        this(10);
+        this(DEFAULT_CAPACITY);
     }
 
 
