@@ -3,7 +3,9 @@ package day060.kafeterya;
 import java.text.Collator;
 import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.List;
 import java.util.Locale;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class Stok extends ArrayList<Urun> {
@@ -57,5 +59,25 @@ public class Stok extends ArrayList<Urun> {
                 )
                 .forEach(System.out::println);
         System.out.println();
+    }
+
+    public List<Urun> head(int quantity){
+        return stream()
+                .limit(quantity)
+                .collect(Collectors.toList());
+    }
+
+    public List<Urun> head(){
+        return head(5);
+    }
+
+    public List<Urun> tail(int quantity){
+        quantity=quantity<size()?quantity:size();
+        return stream()
+                .skip(size()-quantity).collect(Collectors.toList());
+    }
+
+    public List<Urun> tail(){
+        return tail(5);
     }
 }
